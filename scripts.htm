@@ -1,0 +1,144 @@
+visionMpowerement scripts
+
+Lets create our folder first where everything will be stored.
+We'll be using command line interface and show what is exactly happening in graphical user experience
+
+mkdir visionMpowerement
+
+That was a code which was basically called whenever you create a new folder through right click, new folder and then you rename your folder.
+
+Lets start by learning a few of other commands.
+A commonly used command is:
+ ls
+listing all the content inside the folder.
+
+you might want to create a new file where you store commands and scripts.
+ touch index.html
+
+Then lets create an images folder.
+ mkdir images
+
+What if you want to get into the folder? Who has an idea of what we could do?
+  yeah, cd images.
+Then another folder inside the images called logos.
+
+while you want to get back, what do you do?
+ cd ../
+
+ And to see what folder we are in.
+  pwd
+
+Now you have a grasp of what happens when you use a mouse and anything else that is called by a function?
+We shall not cover alot of commands on this lesson, but you can do a little bit of searching to know more of them.
+But before we continue, the assignment is to find out how 
+
+Lets get in the visual studio, I shall not explain most of the things at this video since I know you have a basic understanding of html and css.
+We might create a video of it as soon as we are ready.
+
+
+    <title>visionMpowerement</title>
+    <link rel="stylesheet" href="styles.css">
+
+Oops, we forgot to create the file
+ touch styles.css
+
+I'm also going to be using font awesome which is a jascript file you can find in: 
+I'll put the link in the script file so you can access, but basically you can just search on google like we did
+ https://cdnjs.com/libraries/font-awesome
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+Comment Navbar
+Navbar - holds the logo which is just a h1 tag and the navigation. We can put anythig else later if we wish to.
+
+wrap it with a container div, then in that.
+<div class="container"></div>
+
+h1 with class logo and our logo name visionMpowerement
+Then navigation with nav tag
+then ul for unordered list and then we list our items. This could be any you want users to access as fast as they want.
+
+    <li><a href="index.html">Home</a></li>
+    <li><a href="features.html">Features</a></li>
+    <li><a href="docs.html">Docs</a></li>
+
+live server extension for reloading purposes.
+
+Some specific fonts for my theme.
+search google fonts. 
+https://fonts.google.com/
+styles.css -> roboto : @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+<style>
+    * {
+        /* //on every element by default */
+        /* // This helps us place borders and stuff without adding width of the eleement */
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0
+    }
+
+    body {
+        font-family: 'Roboto', sans-serif;
+        color: #333;
+        line-height: 1.6
+    }
+    ul {
+        list-style-type: none;
+    }
+    a {
+        text-decoration: none;
+        color: #333
+    }
+    h1, h2 {
+
+    }
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Anytime you click and functions are called, that is the work of javascript which we shall not cover this time.
