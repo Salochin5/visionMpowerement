@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --primary-color: #047aed;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -36,7 +41,7 @@ img {
 
 /* NavBar */
 .navbar {
-    background-color: #047aed;
+    background-color: var(--primary-color);
     color: #fff;
     height: 70px;
 }
@@ -63,7 +68,7 @@ img {
 /* Showcase */
 .showcase {
     height: 400px;
-    background-color: #047aed;
+    background-color: var(--primary-color);
 }
 
 
