@@ -69,8 +69,22 @@ img {
 .showcase {
     height: 400px;
     background-color: var(--primary-color);
+    color: #fff;
+    position: relative;
 }
 
+.showcase h1 {
+    font-size: 40px;
+}
+
+.showcase p {
+    margin: 20px 0;
+}
+
+.showcase .grid {
+    grid-template-columns: 55% 45%;
+    gap: 30px;
+}
 
 /* Utility */
 .container {
@@ -82,6 +96,15 @@ img {
 
 .flex {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
     justify-content: center;
     align-items: center;
     height: 100%;
