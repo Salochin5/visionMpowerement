@@ -17,8 +17,8 @@
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="docs.html">Docs</a></li>
                 </ul>
             </nav>
         </div>
@@ -35,7 +35,8 @@
 
             <div class="showcase-form card">
                 <h2>Request our bronchure</h2>
-                <form>
+                <form name="contact" method="POST" data-netlify="true">
+                    <input type="hidden" name="form-name" value="contact">
                     <div class="form-control">
                         <input type="text" text="name" placeholder="Name" required>
                     </div>
@@ -61,17 +62,17 @@
             <div class="grid grid-3 text-center my-4">
                 <div>
                     <i class="fas fa-school fa-3x"></i>
-                    <h3>15,300</h3>
+                    <h3 class="text-primary">15,300</h3>
                     <p class="text-secondary">Students since 2021</p>
                 </div>
                 <div>
                     <i class="fas fa-server fa-3x"></i>
-                    <h3>23</h3>
+                    <h3 class="text-primary">23</h3>
                     <p class="text-secondary">Courses offered</p>
                 </div>
                 <div>
                     <i class="fas fa-graduation-cap fa-3x"></i>
-                    <h3>9,000+</h3>
+                    <h3 class="text-primary">9,000+</h3>
                     <p class="text-secondary">Graduates</p>
                 </div>
             </div>
