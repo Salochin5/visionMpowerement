@@ -48,6 +48,11 @@ img {
     width: 100%;
 }
 
+.hidden {
+    visibility: hidden;
+    height: 0;
+}
+
 /* code {
     background: #333;
     color: #fff;
